@@ -1,0 +1,88 @@
+﻿@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "baner.css";
+@import "work.css";
+@import "partners.css";
+@import "activity.css";
+@import "register.css";
+@import "mobile_size.css";
+@import "tablet_size.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 980px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.title:hover {
+    color: rgb(78, 250, 155);
+}
+
+.title-wrap {
+    text-align: center;
+}
+
+.button {
+    background: #FF4E50;
+    border-radius: 40px;
+    border: 2px solid #FF4E50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background: white;
+    color: rgba(78, 250, 155, 0.7);
+    border: 2px solid rgba(78, 250, 155, 0.7);
+}
+
+.btn--white {
+    color: #FF4E50;
+    background: #FFFFFF;
+    border: 2px solid #FF4E50;
+    margin-top: 30px;
+    transition: all 0.3s;
+}
+
+.hr {
+    height: 2px;
+    background: #FF4E50;
+    margin-top: 90px;
+}
+
+.global__paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+}

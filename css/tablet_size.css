@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+    .partners__list {
+        display: flex;
+        flex: wrap;
+    }
+    .partners__item {
+        width: calc(100% / 2 - 20px);
+    }
+    .title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .baner__content {
+        padding: 0 100px;
+    }
+}
