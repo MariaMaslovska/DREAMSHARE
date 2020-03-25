@@ -6,8 +6,8 @@
 @import "partners.css";
 @import "activity.css";
 @import "register.css";
-@import "mobile_size.css";
 @import "tablet_size.css";
+@import "mobile_size.css";
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 * {
